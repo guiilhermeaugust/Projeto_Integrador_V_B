@@ -17,11 +17,11 @@ public class SimuladorArduino {
     public static void printValoresArduino() throws InterruptedException {
         while (true) {
             List<Integer> dados = ValoresArduino(); // Simulando os dados do Arduino
-            Sensores sensorManager = new Sensores(dados.get(0), dados.get(1), dados.get(2));
+            Sensores sensores = new Sensores(dados.get(0), dados.get(1), dados.get(2));
 
-            sensorManager.PrintTemperatura();
-            sensorManager.PrintUmidade();
-            sensorManager.PrintLuz();
+            sensores.PrintTemperatura();
+            sensores.PrintUmidade();
+            sensores.PrintLuz();
 
             System.out.println("\n");
             Thread.sleep(2000); // Pausa de 2 segundos entre leituras
