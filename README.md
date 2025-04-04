@@ -9,11 +9,10 @@ Desenvolver uma solução integrada que permita:
 
 Tecnologias e Componentes
  -Hardware (Arduino)
- -Microcontrolador: Arduino UNO (ou similar)
+ -Microcontrolador: Arduino UNO
 
 Sensores:
-DHT11 (Temperatura e Umidade)
-LDR (Sensor de Luminosidade)
+Temperatura, Umidade e Luminosidade
 Comunicação: USB Serial (COM3)
 
 Linguagem: Java
