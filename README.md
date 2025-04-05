@@ -37,3 +37,5 @@ Gera dados aleatórios para testes.
 
 4. Protótipo de Aplicativo
 Exibe temperatura, umidade e luminosidade em uma interface simples.
+
+![DiagramaUML_PI_VB drawio](https://github.com/user-attachments/assets/a07657d8-6346-4aa9-86ba-40158fd2d53a)
