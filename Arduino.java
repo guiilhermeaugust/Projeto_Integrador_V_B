@@ -8,7 +8,7 @@ public class Arduino {
         SerialPort serialPort = new SerialPort(PORTA_PADRAO);
         try {
             serialPort.openPort();
-            serialPort.setParams(115200, 8, 1, 0);
+            serialPort.setParams(9600, 8, 1, 0);
 
             int closePort = 1;
             while (closePort <= 10) {
